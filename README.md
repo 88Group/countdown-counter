@@ -1,2 +1,4 @@
-# countdown-counter
-tajik countdown-counter
+## based on source-code of 
+
+https://github.com/florinpop17/10-projects-10-hours/tree/master/countdown-timer
+

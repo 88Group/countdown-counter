@@ -1,0 +1,57 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Noto+Serif&family=Open+Sans&family=Press+Start+2P&display=swap'); */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background:linear-gradient(rgba(163, 187, 106, 0.8), rgba(128, 57, 57, 0.9)), url("./money.jpeg");
+    /* background-image: url("./money.jpeg"); */
+
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: 5rem;
+    color: white;
+}
+
+h3 {
+    color: yellow;
+}
+.countdown-container, span {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row; 
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 2.3rem;
+}
+
+.cur-date {
+color: white;
+margin-top:auto; 
+}
